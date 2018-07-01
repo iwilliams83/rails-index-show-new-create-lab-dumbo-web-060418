@@ -4,10 +4,6 @@ class CouponsController < ApplicationController
     render :index
   end
 
-  # def view
-  #   render :index
-  # end
-
   def new
     render :new
   end
