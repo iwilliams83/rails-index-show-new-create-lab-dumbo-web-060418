@@ -1,6 +1,10 @@
 class CouponsController < ApplicationController
   def index
     @coupons = Coupon.all
+    
+  end
+
+  def view 
     render :index
   end
 
